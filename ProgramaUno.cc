@@ -1,3 +1,8 @@
+//El valor de P es 13 en caso de que se refiera al numero de mes
+//El valor de P es 9 en caso de que se refiera al numero de dìa
+//El valor de P es 20 en caso de que se refiera a mi edad
+//Joseph Edrei Moreno Cruz
+// 2 de septiembre de 1997
 #include <iostream>
 using namespace std;
 
@@ -22,10 +27,10 @@ int main (){
   cout << "Dame un número entero" << endl;
   cin >> p;
 
- while (S!=0){ 
+ while (S!=0){
    cout << "ciclo S!=0, S " << S << ",p " << p << endl;
    while(p<S){
-       cout << "ciclo p<S, S " < S << ",p " << p << endl;
+       cout << "ciclo p<S, S " << S << ",p " << p << endl;
 
     while(isPrime(p)==1){
       cout << "ciclo isPrime, S " << S << ",p " << p << endl;
@@ -37,12 +42,12 @@ int main (){
     }  
     
     S=S-p;
-    p=p+2
+    p=p+2;
     cout << "final ciclo p<S, S " << S << ",p " << p << endl;
    }
 
   S=S-1;
-  cout < "final ciclo S!=0, S " << S << ",p " << p << endl;
+  cout << "final ciclo S!=0, S " << S << ",p " << p << endl;
  }
   
   cout << " el valor de P es " << p << endl;
