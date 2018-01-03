@@ -12,6 +12,7 @@ cout<<"Ingrese el tiempo"<<endl;
 cin>>t;
 cout<<"Ingrese la distancia"<<endl;
 cin>>d;
+//La fórmula de la velocidad es : v=d/t no v=d*t.
 v=d*t;
 cout<<"La velocidad es: "<<v<<endl;
 return 0;
